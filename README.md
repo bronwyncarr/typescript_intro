@@ -1,6 +1,6 @@
 # Typescript Crash Course
 
-These exercisees and notes are based on the  [TypeScript Crash Course](https://www.youtube.com/watch?reload=9&v=rAy_3SIqT-E) by Bread Traversy of [Traversy media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA).
+These exercisees and notes are based on the [TypeScript Crash Course](https://www.youtube.com/watch?reload=9&v=rAy_3SIqT-E) by Bread Traversy of [Traversy media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA).
 
 ## Info about TypeScript
 
@@ -16,12 +16,13 @@ These exercisees and notes are based on the  [TypeScript Crash Course](https://w
 - Number
 - Boolean
 - Array
-- Any 
-- Void (no type)
+- Any
+- Void (no type ie. null or undefined)
 - Null (underfined)
 - Tuple (array with fixed length)
 - Enum (enumerated values)
 - Generics (type of constraint)
 
+### Compiling
 
-
+`tsc name.ts` eg. `tsc types.ts` OR for wathc mode: `tsc name.ts -w`

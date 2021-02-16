@@ -1,0 +1,32 @@
+var myString;
+var myNum;
+var myBool;
+var myVar;
+myString = 'Hello world'.concat(' from a string');
+myNum = 22 + 4.3;
+myBool = true;
+myVar = 'hello';
+myVar = false;
+console.log(myString);
+console.log(myNum);
+console.log(myBool);
+console.log(myVar);
+var strArr;
+var numArr;
+var boolArr;
+var strNumTuple; // Types must have this order. Can have any type after last defined type.
+var myVoid = null; // Can be assigned a value in one line.
+var myNull = null;
+var myUndefined = undefined;
+strArr = ['Hello', 'World'];
+numArr = [1, 2, 3];
+boolArr = [true, false];
+strNumTuple = ['Hello', 4];
+myVoid = undefined;
+console.log(strArr);
+console.log(numArr);
+console.log(boolArr);
+console.log(strNumTuple);
+console.log(myVoid);
+console.log(myNull);
+console.log(myUndefined);
